@@ -1,0 +1,16 @@
+body {
+    background-color: #212121;
+}
+.navbargrijs {
+    background-color: #343434;
+    color: white;
+}
+.navbar{
+    height: 100px !important;
+    margin-bottom: 200px;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
