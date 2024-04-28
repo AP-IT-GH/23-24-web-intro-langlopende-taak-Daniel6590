@@ -14,6 +14,18 @@ body {
     padding-left:30px;
     padding-right:30px;
 }
+#knop {
+    width: 80;
+    height: 30;
+    color: white;
+    background-color: #343434;
+    border-radius: 9px;
+    transform-style: preserve-3d;
+    transform: scale(var(--s, 1)) perspective(600px)
+      rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+    perspective: 600px;
+    transition: transform 0.1s;
+}
 
 #lampen {
      background-image: url( /assets/lamp.webp );
@@ -75,30 +87,6 @@ body {
     text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
     border-radius: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .rainbow-hover {
     font-size: 16px;
     font-weight: 700;
