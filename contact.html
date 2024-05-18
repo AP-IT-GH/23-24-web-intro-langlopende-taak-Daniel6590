@@ -19,42 +19,46 @@
   <link href="./css/style.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-  crossorigin=""/>
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-  crossorigin=""></script>
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid py-4 navbargrijs p-10 navbar-dark">
-        <a class="navbar-brand text-light ms-5 mb-3" href="index.html">
-          <img src="/assets/mesahomelogo.png" alt="MesaHome logo" width="120px" height="100%"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-light" href="diensten.html">Over ons</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-light" href="/contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="nav-link active btn btn-lg btn-light text-black">Login</button>
-            </li>
-          </ul>
+        <div class="container-fluid py-4 navbargrijs p-10 navbar-dark">
+            <a class="navbar-brand text-light ms-5 mb-3" href="index.html">
+                <img src="/assets/mesahomelogo.png" alt="MesaHome logo" width="120px" height="100%">
+            </a>
+            <!-- Zoekbalk toevoegen -->
+            <form class="d-flex ms-auto me-5">
+                <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Zoeken">
+                <button class="btn btn-outline-light" type="submit">Zoeken</button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="diensten.html">Over ons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="nav-link active btn btn-lg btn-light text-black">Login</button>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-  </header>
+</header>
   <div class="container">
     <div class="row">
       <main class ="col-xl-8 col-12 pb-5 ps-5">
@@ -107,6 +111,7 @@
     </aside>
    </div>
   </div>
+  <div style="height: 130px;"></div>
   <footer class="py-2 border-top">
     <p class="text-light text-center">© 2024 MesaHome, Inc</p>
     <script src="js/leaflet.js"></script>

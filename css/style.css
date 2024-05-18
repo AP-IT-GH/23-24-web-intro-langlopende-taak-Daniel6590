@@ -14,80 +14,57 @@ body {
     padding-left:30px;
     padding-right:30px;
 }
+a.knop {
+  text-decoration: none;
+}
 
-#knop {
-    width: 80;
-    height: 30;
-    color: white;
-    background-color: #343434;
-    border-radius: 9px;
-    transform-style: preserve-3d;
-    transform: scale(var(--s, 1)) perspective(600px)
-      rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
-    perspective: 600px;
-    transition: transform 0.1s;
+.knop {
+  display: block;
+  width: 300px;
+  height: 201px;
+  margin: auto;
+}
+
+.knop button {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #lampen {
-     background-image: url( /assets/lamp.webp );
-     height: 201px;
-     width: 300px;
-     color:white;
-     font-weight: bold;
-     font-size: 40px;
-     text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
-     border-radius: 16px;
+    background-image: url(/assets/lamp.webp);
 }
+
 #thermostaat {
-    background-image: url( /assets/thermostaat.jpg );
-    height: 201px;
-    width: 300px;
-    color:white;
-    font-weight: bold;
-    font-size: 40px;
-    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
-    border-radius: 16px;
+    background-image: url(/assets/thermostaat.jpg);
 }
+
 #weer {
-    background-image: url( /assets/weer.webp );
-    height: 201px;
-    width: 300px;
-    color:white;
-    font-weight: bold;
-    font-size: 40px;
-    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
-    border-radius: 16px;
+    background-image: url(/assets/weer.webp);
 }
+
 #verbruik {
-    background-image: url( /assets/verbruik.webp );
-    height: 201px;
-    width: 300px;
-    color:white;
-    font-weight: bold;
-    font-size: 40px;
-    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
-    border-radius: 16px;
+    background-image: url(/assets/verbruik.webp);
 }
+
 #camera {
-    background-image: url( /assets/camera.jpg );
-    height: 201px;
-    width: 300px;
-    color:white;
-    font-weight: bold;
-    font-size: 40px;
-    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
-    border-radius: 16px;
+    background-image: url(/assets/camera.jpg);
 }
+
 #alarm {
-    background-image: url( /assets/alarm.webp);
-    height: 201px;
-    width: 300px;
-    color:white;
-    font-weight: bold;
-    font-size: 40px;
-    text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
-    border-radius: 16px;
+    background-image: url(/assets/alarm.webp);
 }
+
   .rainbow-hover {
     font-size: 16px;
     font-weight: 700;

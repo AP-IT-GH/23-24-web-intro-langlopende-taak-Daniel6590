@@ -22,59 +22,81 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid py-4 navbargrijs p-10 navbar-dark">
-        <a class="navbar-brand text-light ms-5 mb-3" href="index.html">
-          <img src="/assets/mesahomelogo.png" alt="MesaHome logo" width="120px" height="100%"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-light" href="diensten.html">Over ons</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-light" href="/contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <button type="button" class="nav-link active btn btn-lg btn-light text-black">Login</button>
-            </li>
-          </ul>
+        <div class="container-fluid py-4 navbargrijs p-10 navbar-dark">
+            <a class="navbar-brand text-light ms-5 mb-3" href="index.html">
+                <img src="/assets/mesahomelogo.png" alt="MesaHome logo" width="120px" height="100%">
+            </a>
+            <!-- Zoekbalk toevoegen -->
+            <form class="d-flex ms-auto me-5">
+                <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Zoeken">
+                <button class="btn btn-outline-light" type="submit">Zoeken</button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="diensten.html">Over ons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="nav-link active btn btn-lg btn-light text-black">Login</button>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-  </header>
+</header>
+
+
   <main class="container mb-5 pb-5">
     <div class="text-light text-center mt-10 mb-5 pb-5">
-      <h1 class="mb-4">MesaHome dashboard</h1>
-      <a href="contact.html">
-        <button data-label="Register" class="rainbow-hover">
-        <span class="sp">Join nu!</span>
-      </button>
-    </a>
-      
+        <h1 class="mb-4">MesaHome dashboard</h1>
+        <a href="contact.html">
+            <button data-label="Register" class="rainbow-hover">
+                <span class="sp">Join nu!</span>
+            </button>
+        </a>
     </div>
     <div class="row text-light text-end mb-5">
-      <div class="col-sm-3 col-12"></div>
-        <p class="col-sm-5 col-12">Ontdek de kracht van ons internetgestuurde dashboard, uw sleutel tot naadloze controle over uw smarthome-apparaten, waar u ook bent. Stel de airco in, regel de temperatuur, bedien de verlichting en zelfs de rolluiken - allemaal met een paar tikken op uw smartphone. Efficiënt energiebeheer, gepersonaliseerde schema's en realtime meldingen maken uw ervaring compleet. Maak van ons dashboard uw betrouwbare metgezel voor een slimmer en comfortabeler huis.</p>
-      <figure class="figure col-4">
-        <img src="assets/smarthometouch.png" alt="Foto van dashboard" width="500px" height="100%">
-      </figure>
-            
+        <div class="col-lg-3 col-md-2"></div>
+        <p class="col-lg-5 col-12">Ontdek de kracht van ons internetgestuurde dashboard, uw sleutel tot naadloze controle over uw smarthome-apparaten, waar u ook bent. Stel de airco in, regel de temperatuur, bedien de verlichting en zelfs de rolluiken - allemaal met een paar tikken op uw smartphone. Efficiënt energiebeheer, gepersonaliseerde schema's en realtime meldingen maken uw ervaring compleet. Maak van ons dashboard uw betrouwbare metgezel voor een slimmer en comfortabeler huis.</p>
+        <figure class="figure col-lg-4 col-12">
+            <img src="assets/smarthometouch.png" alt="Foto van dashboard" class="img-fluid" width="500px">
+            <figcaption class="figure-caption text-light">Afbeelding van ons MesaHome-dashboard</figcaption>
+        </figure>
     </div>
     <div class="row text-light">
-      <figure class="figure col-sm-2 col-12">
-        <img src="/assets/fotodaniel.png" alt="Foto van Daniel" width="200px" height="100%">
-        <figcaption class="figure-caption text-light">CEO Daniel Van Dessel</figcaption>
-      </figure>
-      <p class="col-sm-3 col-12">〝Als CEO van MetaHome is het mijn voorrecht u te verwelkomen in de wereld van verbonden wonen. MetaHome verbindt niet alleen apparaten, maar ook levens. Met ons geavanceerde dashboard brengen we de kracht van slimme technologie naar uw vingertoppen, waar u ook bent. Ontdek hoe MetaHome uw huis transformeert en uw leven vereenvoudigt.〟</p>
+        <figure class="figure col-lg-2 col-md-3 col-12">
+            <img src="/assets/fotodaniel.png" alt="Foto van Daniel" class="img-fluid" width="200px">
+            <figcaption class="figure-caption text-light">CEO Daniel Van Dessel</figcaption>
+        </figure>
+        <p class="col-lg-5 col-12">〝Als CEO van MetaHome is het mijn voorrecht u te verwelkomen in de wereld van verbonden wonen. MetaHome verbindt niet alleen apparaten, maar ook levens. Met ons geavanceerde dashboard brengen we de kracht van slimme technologie naar uw vingertoppen, waar u ook bent. Ontdek hoe MetaHome uw huis transformeert en uw leven vereenvoudigt.〟</p>
     </div>
-    
-  </main>
+    <div class="row text-light mt-5">
+        <div class="col-lg-4 col-12">
+            <h2>Realtime meldingen</h2>
+            <p>Ontvang onmiddellijke meldingen op uw smartphone bij bewegingsdetectie, deursensoren, rook- en koolmonoxidemelders en meer. Met ons MesaHome-dashboard bent u altijd op de hoogte van wat er in uw huis gebeurt, waar u ook bent.</p>
+        </div>
+        <div class="col-lg-4 col-12">
+            <h2>Geavanceerde beveiliging</h2>
+            <p>Onze MesaHome-apparaten zijn ontworpen met de nieuwste beveiligingsfuncties, waaronder end-to-end-encryptie, tweefactorauthenticatie en regelmatige software-updates. Bescherm uw huis en uw privacy met MesaHome.</p>
+        </div>
+        <div class="col-lg-4 col-12">
+            <h2>Energiebeheer</h2>
+            <p>Optimaliseer uw energieverbruik en bespaar geld met MesaHome's slimme energiebeheerfuncties. Stel aangepaste schema's in, controleer uw energieverbruik in realtime en ontvang aanbevelingen voor efficiënter energieverbruik.</p>
+        </div>
+    </div>
+</main>
+
+
   <footer class="pt-3 my-1 border-top">
     <p class="text-light text-center">© 2024 MesaHome, Inc</p>
   </footer>
