@@ -20,40 +20,44 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid py-4 navbargrijs p-10 navbar-dark">
-            <a class="navbar-brand text-light ms-5 mb-3" href="index.html">
-                <img src="/assets/mesahomelogo.png" alt="MesaHome logo" width="120px" height="100%">
-            </a>
-            <!-- Zoekbalk toevoegen -->
-            <form class="d-flex ms-auto me-5">
-                <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Zoeken">
-                <button class="btn btn-outline-light" type="submit">Zoeken</button>
-            </form>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" href="diensten.html">Over ons</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-light" href="/contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="nav-link active btn btn-lg btn-light text-black">Login</button>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid py-4 navbargrijs p-10 navbar-dark">
+                <a class="navbar-brand text-light ms-5 mb-3" href="index.html">
+                    <img src="./assets/mesahomelogo.png" alt="MesaHome logo" width="120px" height="100%">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                <!-- Zoekbalk toevoegen -->
+                        <li>
+                            <form class="d-flex ms-auto me-5">
+                                <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Zoeken">
+                                <button class="btn btn-outline-light" type="submit">Zoeken</button>
+                            </form>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="diensten.html">Over ons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="/contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="nav-link active btn btn-lg btn-light text-black">Login</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
   <main class="container text-light">
     <div class="row">
